@@ -1,8 +1,5 @@
 # Pos tagging with RNNs
-Assignment 1 of 2022 NLP course at Unibo for Master Degree in AI. 
-
-## Abstract 
-The present work aims to study the Part-of-speech (POS) tagging task as Sequence Labbelling using Recurrent Neural Architectures. The approach adopted follows some fundamental steps: inspection of data, use of an embedding model, pre-processing of sentences and development of recurrent architectures. Concerning this last step, an increasing development in complexity was performed, starting from a basic architecture.
+The present work has been done as first assignment for the NLP course of Master Degree in AI at Unibo. It aims to study the Part-of-speech (POS) tagging task as Sequence Labbelling using Recurrent Neural Architectures. The approach adopted follows some fundamental steps: inspection of data, use of an embedding model, pre-processing of sentences and development of recurrent architectures. Concerning this last step, an increasing development in complexity was performed, starting from a basic architecture.
 
 ## System Description
 Our baseline architecture coposed by:
