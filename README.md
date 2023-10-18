@@ -5,7 +5,7 @@ The present work has been done as first assignment for the NLP course of Master 
 Our baseline architecture coposed by:
 - a frozen Embedding layer, initialized with GloVe word embedding matrix
 - a Bidirectional LSTM
-- -a Dropout and a Time-Distributed FC layer with Softmax.
+- a Dropout and a Time-Distributed FC layer with Softmax.
 
 We use a word tokenization to encode input string. During the creation of the embedding matrix following strategies was applied. Initially, if we don't find words as it, we search it lowercase version. If still not found, we try to search if it's an hypened terms, in this case the resultin embedding is the average of each word embedding. Finally, if no one of the previous methos works, we assign to it a default vector computed as the average of all the GloVe vectors. The vector embedding dimension is 100. 
 
